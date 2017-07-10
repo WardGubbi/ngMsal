@@ -1,5 +1,5 @@
 // Interceptor for http if needed
-export default ['msalAuthenticationService', '$q', '$rootScope', '$templateCache',
+['msalAuthenticationService', '$q', '$rootScope', '$templateCache',
     function protectedResourceInterceptor(authService, $q, $rootScope, $templateCache) {
         "use strict";
         return {

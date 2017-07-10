@@ -1,4 +1,4 @@
-export default function msalAuthenticationService() {
+function msalAuthenticationService() {
     "use strict";
 
     var msal = window.Msal;
