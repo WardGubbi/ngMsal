@@ -1,0 +1,32 @@
+{
+  "name": "ng-msal",
+  "version": "0.1.1",
+  "description": "AngularJS module for Microsoft Authentication Library",
+  "main": "dist/ngMsal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && webpack --config webpack.config.js"
+  },
+  "repository": "WardGubbi/ngMsal",
+  "keywords": [
+    "msal",
+    "microsoft",
+    "angular",
+    "azure",
+    "b2C"
+  ],
+  "author": "Ward Gubbi",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/wardgubbi/ngMsal#readme",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "msal": "0.1.1"
+  },
+  "devDependencies": {
+    "babel": "^5.1.13",
+    "babel-core": "^5.1.13",
+    "babel-loader": "^5.0.0",
+    "webpack": "^1.4.15",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
